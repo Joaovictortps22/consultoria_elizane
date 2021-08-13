@@ -18,7 +18,7 @@
     height: 60px;
     background-color: rgb(223, 134, 17);
     position: relative;
-    top: 515px;
+    top: 572px;
     opacity: 0.7;
     display: flex;
 }
@@ -35,21 +35,6 @@
     transition: 0.4s;
     color: white;
 }
-#itemMenu2:hover{
-    background-color: black;
-    transition: 0.4s;
-    color: white;
-}
-#itemMenu3:hover{
-    background-color: black;
-    transition: 0.4s;
-    color: white;
-}
-#itemMenu4:hover{
-    background-color: black;
-    transition: 0.4s;
-    color: white;
-}
 #itemMenu2{
     width: 10%;
     height: 60px;
@@ -57,6 +42,11 @@
     opacity: 0.7;
     text-decoration: none;
     color: black;
+}
+#itemMenu2:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
 }
 #itemMenu3{
     width: 10%;
@@ -66,6 +56,11 @@
     text-decoration: none;
     color: black;
 }
+#itemMenu3:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
 #itemMenu4{
     width: 10%;
     height: 60px;
@@ -73,6 +68,24 @@
     opacity: 0.7;
     text-decoration: none;
     color: black;
+}
+#itemMenu4:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+.colorboton{
+    background-color: blanchedalmond;
+}
+.col{
+    margin-top: 50px;
+}
+.card-img-top{
+    background: url("images/imgTopo.jpg");
+    height: 150px;
+    background-attachment: local;
+    background-position-x: left;
+    background-size: cover;
 }
 @media(max-width: 500px){
     #imgTop{
