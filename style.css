@@ -1,15 +1,16 @@
 #imgTop{
     height: 700px;
-    background: url("images/imgTopo.jpg") no-repeat right top fixed;
+    background: url("images/court-hammer-and-books-judgment-and-law-concept.jpg") no-repeat right top fixed;
     background-size: cover;
     text-align: center;
     background-attachment: local;
+    background-position-x: left;
 }
 #faixa{
     background-color: blanchedalmond;
     position: relative;
     top: 300px;
-    width: 40%;
+    width: 60%;
     font-size: 50px;
     display: inline-table;
 }
@@ -19,11 +20,64 @@
     position: relative;
     top: 515px;
     opacity: 0.7;
+    display: flex;
+}
+#itemMenu1{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(223, 134, 17);
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+}
+#itemMenu1:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+#itemMenu2:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+#itemMenu3:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+#itemMenu4:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+#itemMenu2{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(223, 134, 17);
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+}
+#itemMenu3{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(223, 134, 17);
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+}
+#itemMenu4{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(223, 134, 17);
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
 }
 @media(max-width: 500px){
     #imgTop{
     height: 300px;
-    background: url("images/imgTopo.jpg") no-repeat right top fixed;
+    background: url("images/court-hammer-and-books-judgment-and-law-concept.jpg") no-repeat right top fixed;
     background-size: cover;
     text-align: center;
     background-attachment: local;
