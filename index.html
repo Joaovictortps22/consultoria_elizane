@@ -13,16 +13,26 @@
 
     </div>
     <div id="imgTop">
-        <h1 id="faixa">Consultoria Jurídica</h1>
+        <h1 id="faixa">CONSULTORIA JURÍDICA</h1>
         <div id="bottomImgTop">
-            <div id="itemMenu1">Sobre Mim</div>
-            <div id="itemMenu2">Serviços</div>
-            <div id="itemMenu3">Resultados</div>
-            <div id="itemMenu4">Contato</div>
+            <div class="itemsMenuDesktop" id="itemMenu1">Sobre Mim</div>
+            <div class="itemsMenuDesktop" id="itemMenu2">Serviços</div>
+            <div class="itemsMenuDesktop" id="itemMenu3">Resultados</div>
+            <div class="itemsMenuDesktop" id="itemMenu4">Contato</div>
+            <div id="divSvg" onclick="Mudarestado('groupBtnId')">
+              <svg id="svgIconMenu" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </div>
         </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div id="bloco2">
+      <h1 id="h1Bloco2">Destinado ao Título</h1>
+      <h2 id="h2Bloco2">Esse espaço é destinado para um subtitulo</h2>
+    </div>
+
+    <div class="row divCards row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
             <div class="card-img-top" alt="..."></div>
@@ -53,12 +63,49 @@
             <button type="button" class="btn colorboton">Warning</button>
           </div>
     </div>
+    </div>
+
+    <div class="bloco4">
+      <div class="bloco4_1">
+        <div class="bloco4_1_1">
+          Missão
+        </div>
+        <hr class="blocos4tros" width="70%">
+        <div class="bloco4_1_2">
+          <ul>
+            <li>Advocacia geradora de soluções eficientes para o sucesso dos negócios dos clientes</li>
+            <li>Postura proativa em que o cliente perceba a máxima entrega profissional</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bloco4_1">
+        <div class="bloco4_1_1">
+          Valores
+        </div>
+        <hr class="blocos4tros" width="70%">
+        <div class="bloco4_1_2">
+          <ul>
+            <li>Ética e confiabilidade absoluta</li>
+            <li>Dedicação abnegada ao cliente</li>
+            <li>Busca permanente de composições rápidas, perenes e de menor custo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
 
 
+    <script>
+      function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if(display == "none")
+            document.getElementById(el).style.display = 'flex';
+        else
+            document.getElementById(el).style.display = 'none';
+      }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
