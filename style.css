@@ -8,6 +8,29 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(47, 36, 44);
+    color: white;
+}
+#div1footer{
+    height: 200px;
+    width: 60%;
+    display: inline-block;
+    margin-top: 50px;
+}
+#div2footer{
+    height: 40px;
+    display: inline-flex;
+    width: 40%;
+    color: white;
+}
+.iconfooter{
+    height: 30px;
+    width: 20px;
+    display: inline-block;
+}
 #imgTop{
     height: 500px;
     background: url("images/court-hammer-and-books-judgment-and-law-concept.jpg") no-repeat right top fixed;
@@ -72,7 +95,6 @@ body{
     color: rgb(223, 134, 17);;
 }
 .bloco4{
-    border: solid;
     height: 420px;
     width: 100%;
     margin-top: 140px;
@@ -152,6 +174,9 @@ body{
 #divSvg{
     display: none;
 }
+.divCards{
+    display: inline-block;
+}
 #groupBtnId{
     height: 40px;
     width: 100px;
@@ -166,18 +191,19 @@ body{
     background-position-x: left;
     }
     #faixa{
-        background-color: blanchedalmond;
+        background-color: rgb(47, 36, 44);
         position: relative;
-        top: 60px;
+        top: 100px;
         width: 70%;
         font-size: 20px;
+        height: 23px;
         display: inline-table;
     }
     #bottomImgTop{
         height: 60px;
         background-color: rgb(223, 134, 17);
         position: relative;
-        top: 208px;
+        top: 214px !important;
         opacity: 0.7;
     }
     .itemsMenuDesktop{
@@ -198,6 +224,24 @@ body{
     }
     #groupBtnId{
         display: none;
+    }
+    #bloco2{
+        margin-top: 20px;
+    }
+    .bloco4_1{
+        margin: 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .bloco4{
+        display: inline-block;
+        margin-top: 50px;
+    }
+    #valores{
+        margin-top: 50px;
+    }
+    footer{
+        height: 300px;
     }
 }
 @media(max-width: 1155px){
